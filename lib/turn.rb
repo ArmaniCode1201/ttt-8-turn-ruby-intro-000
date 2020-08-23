@@ -1,8 +1,6 @@
 def input_to_index(input)
-  index = input.to_i
-  index -= 1
-  return index
-end
+  index = input.to_i - 1
+  end
 
 #if index is valid...
 def valid_move?(index, board)
