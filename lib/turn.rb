@@ -4,7 +4,7 @@ end
 
 #if index is valid...
 def valid_move?(index, board)
-  index.between?(0, 8) && !(position_taken?(index, board))
+  index.between?(0, 8) && !(position_taken?(board, index))
 end
 
 #if index is valid...make themove for index
