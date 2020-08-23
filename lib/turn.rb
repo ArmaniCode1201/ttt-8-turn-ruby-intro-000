@@ -9,6 +9,7 @@ def valid_move?(index, board)
    else
      false
   end
+end
 
 #if index is valid...make themove for index
 def move(array, index, name = "X")
