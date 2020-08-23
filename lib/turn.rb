@@ -1,5 +1,7 @@
 def input_to_index(input)
-  input.to_i - 1
+  index = input.to_i
+  index -= 1
+  return index
 end
 
 #if index is valid...
