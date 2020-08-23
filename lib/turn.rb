@@ -1,4 +1,4 @@
-def input_to_index(input)
+def input_to_index(index)
   input.to_i - 1
   end
 
