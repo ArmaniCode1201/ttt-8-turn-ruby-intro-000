@@ -14,6 +14,7 @@ end
 #if index is valid...make themove for index
 def move(array, index, name = "X")
   array[index] = name
+  return array
 end
 
 def position_taken?(board, answer)
