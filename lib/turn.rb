@@ -6,7 +6,7 @@ def input_to_index(input)
 def valid_move?(index, board)
    if index.between?(0, 8) == true && !(position_taken?(board, index) == true)
      return true
-   else 
+   else
      return false
    end
 end
