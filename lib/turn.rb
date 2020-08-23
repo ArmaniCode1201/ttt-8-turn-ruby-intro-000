@@ -4,7 +4,11 @@ def input_to_index(input)
 
 #if index is valid...
 def valid_move?(index, board)
-   index.between?(0, 8) && !(position_taken?(board, index))
+   if index.between?(0, 8) == true && !(position_taken?(board, index) == true)
+     return true
+   else 
+     return false
+   end
 end
 
 #if index is valid...make themove for index
